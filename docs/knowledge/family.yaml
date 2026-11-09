@@ -34,6 +34,14 @@ projects:
   focus: Desktop DevOps intelligence across Azure Virtual Desktop, Windows 365 and Microsoft Intune (assess, inventory, deploy, operate), and the memory layer behind avd-swarm
   owns: [Azure Virtual Desktop platform, Windows 365 Cloud PCs, Intune policy-as-code and assignment filters, FSLogix, session host and Cloud PC images, the AVD landing zone and its operations, the contracts between the AVD repos]
   format_version: 1
+- id: avd-hcl
+  name: avd-hcl
+  repo: avd-ops/avd-hcl
+  kb_path: docs/knowledge
+  role: member
+  focus: 'Native Azure Virtual Desktop deployed and operated with Terraform and Packer, beside avd-landing-zone'
+  owns: [native AVD Terraform modules and stages, Packer golden-image templates for AVD, the avd-hcl parameter schema and readiness checks]
+  format_version: 1
 - id: liquidware
   name: Liquidware
   repo: nickprignano/liquidware-ninja

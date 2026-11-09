@@ -8,13 +8,14 @@ last_reviewed: 2026-10-29
 
 # The repos
 
-Eleven public repos, each the source of truth for itself. Pick one to see where it fits.
+Twelve public repos, each the source of truth for itself. Pick one to see where it fits.
 
 | Repo | Role |
 |---|---|
 | [avd-current-state](avd-current-state.md) | What is there now |
 | [avd-assess](avd-assess.md) | What it should be, and why |
 | [avd-landing-zone](avd-landing-zone.md) | How it's built and changed from here: orchestrator and portal |
+| [avd-hcl](avd-hcl.md) | HCL lane: native AVD with Terraform and Packer |
 | [avd-entra](avd-entra.md) | Control plane: Entra ID identity, groups and Conditional Access |
 | [avd-intune](avd-intune.md) | Control plane: Intune policy-as-code, session-host enrollment and Windows 365 Cloud PCs |
 | [avd-m365](avd-m365.md) | Control plane: greenfield Microsoft 365, OneDrive and Teams VDI |

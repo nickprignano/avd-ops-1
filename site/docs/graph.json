@@ -179,6 +179,13 @@
    "status": "verified"
   },
   {
+   "id": "repos/avd-hcl.md",
+   "title": "avd-hcl",
+   "url": "repos/avd-hcl.html",
+   "topic": "repos",
+   "status": "verified"
+  },
+  {
    "id": "repos/avd-intune.md",
    "title": "avd-intune",
    "url": "repos/avd-intune.html",
@@ -439,6 +446,10 @@
   },
   {
    "source": "repos/README.md",
+   "target": "repos/avd-hcl.md"
+  },
+  {
+   "source": "repos/README.md",
    "target": "repos/avd-entra.md"
   },
   {
@@ -595,6 +606,14 @@
   },
   {
    "source": "repos/avd-entra.md",
+   "target": "repos/avd-current-state.md"
+  },
+  {
+   "source": "repos/avd-hcl.md",
+   "target": "repos/avd-landing-zone.md"
+  },
+  {
+   "source": "repos/avd-hcl.md",
    "target": "repos/avd-current-state.md"
   },
   {

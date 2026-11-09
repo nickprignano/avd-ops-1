@@ -28,6 +28,7 @@ add it to the topic page it belongs to instead of starting a new file.
 | [repos/avd-azure.md](repos/avd-azure.md) | Control plane: cloud-native Azure ARM and Bicep infrastructure for Azure Virtual Desktop, Private Link, FSLogix Azure Files and session hosts | verified |
 | [repos/avd-current-state.md](repos/avd-current-state.md) | What is there now: read-only PowerShell that collects an AVD environment across all five control planes, validates it and writes redacted C11 facts | verified |
 | [repos/avd-entra.md](repos/avd-entra.md) | Control plane: Entra ID security groups, dynamic session-host groups, Conditional Access and Entra Kerberos for Azure Virtual Desktop | verified |
+| [repos/avd-hcl.md](repos/avd-hcl.md) | HCL lane: native Azure Virtual Desktop deployed and operated with Terraform and Packer, beside avd-landing-zone | verified |
 | [repos/avd-intune.md](repos/avd-intune.md) | Control plane: Microsoft Intune policy-as-code, session-host enrollment, assignment filters and Windows 365 Cloud PC provisioning | verified |
 | [repos/avd-landing-zone.md](repos/avd-landing-zone.md) | How it's built and changed from here: a cloud-native AVD landing zone and deployment portal for multiple pools, workspaces and Private Link | verified |
 | [repos/avd-linecheck.md](repos/avd-linecheck.md) | End-user browser network check: measures reachability, regional latency, jitter, setup overhead and download sufficiency from the user's device with zero sign-in | verified |
@@ -49,6 +50,7 @@ add it to the topic page it belongs to instead of starting a new file.
 |---|---|---|---|
 | [2ndbrain](https://github.com/nickprignano/2ndbrain/tree/main/docs/knowledge) | reference | The template that owns the family knowledge base format | the family knowledge base format; its scripts and schemas |
 | [AVD](https://github.com/avd-ops/avd-second-brain/tree/main/docs/knowledge) | member | Desktop DevOps intelligence across Azure Virtual Desktop, Windows 365 and Microsoft Intune (assess, inventory, deploy, operate), and the memory layer behind avd-swarm | Azure Virtual Desktop platform; Windows 365 Cloud PCs; Intune policy-as-code and assignment filters; FSLogix; session host and Cloud PC images; the AVD landing zone and its operations; the contracts between the AVD repos |
+| [avd-hcl](https://github.com/avd-ops/avd-hcl/tree/main/docs/knowledge) | member | Native Azure Virtual Desktop deployed and operated with Terraform and Packer, beside avd-landing-zone | native AVD Terraform modules and stages; Packer golden-image templates for AVD; the avd-hcl parameter schema and readiness checks |
 | [Liquidware](https://github.com/nickprignano/liquidware-ninja/tree/main/docs/knowledge) | member | Liquidware products across virtual and physical desktops (Stratusphere UX, ProfileUnity, FlexApp, CommandCTRL) | Liquidware products (Stratusphere UX, ProfileUnity, FlexApp, CommandCTRL); the Stratusphere API and SpotCheck methodology; how they fit with AVD, Citrix, Horizon and FSLogix, and the avd-liquidware toolkit |
 <!-- END GENERATED: family -->
 
